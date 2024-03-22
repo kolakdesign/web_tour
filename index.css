@@ -9,26 +9,26 @@ html, body {
 }
 
 #container {
-    width: 65%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
    
+    
+
 }
 
 #image_container {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
    
+    overflow: hidden;
 }
 
-#image {
-    border: 100px solid black
-   
-}
