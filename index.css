@@ -15,7 +15,20 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+   
+}
 
+#image_container {
+    width: 90%;
+    height: 90%;
 
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#image {
+    border: 100px solid black
+   
 }
