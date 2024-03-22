@@ -1,22 +1,41 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-
-  <title>Virtual Tour</title>
-  <link rel="stylesheet" href="index.css">
-
-<div id="container">
-
-    <div id="image_container">
-
-    <img id="image" src="img//Sljemenska_1.jpg" usemap="#image_map">
+  <!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Tour</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    img {
+      width: 100%;
+      padding: 3rem;
+    }
+  </style>
+  <body>
+    <img src="img//Sljemenska_1.jpg" usemap="#image_map" />
     <map name="image_map">
-      <area alt="Stan1" title="Stan1" target="_blank" href="https://obiteljska-kuca.vercel.app/" coords="845,359 623,358 525,376 529,439 622,457 845,455 " shape="polygon">
-      <area alt="Stan2" title="Stan2" target="_blank" href="https://suton.vercel.app/" coords="389,353 132,343 78,359 79,441 132,457 392,462 " shape="polygon">
+      <area
+        alt="Stan1"
+        title="Stan1"
+        href="https://obiteljska-kuca.vercel.app/"
+        coords="845,359 623,358 525,376 529,439 622,457 845,455 "
+        shape="polygon"
+      />
+      <area
+        alt="Stan2"
+        title="Stan2"
+        href="https://suton.vercel.app/"
+        coords="389,353 132,343 78,359 79,441 132,457 392,462 "
+        shape="polygon"
+      />
     </map>
-
+    <script src="mageMapResizer.min.js "></script>
+    <script>
+      imageMapResize();
+    </script>
   </body>
-
-  </html>
-  
+</html>
